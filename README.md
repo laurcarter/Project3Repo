@@ -1,7 +1,6 @@
-# Project3Repo
-# Medical Assistant for General Info and Care
+# AI-Powered Healthcare Assistant: A RAG-Powered Healthcare Chatbot for Patients and Professionals
 
-# Team Members:
+## Team Members:
  Lauren Carter,
  Domenic Guerrero,
  Sandeep Singh,
