@@ -10,10 +10,10 @@
 ## Overview
 This Healthcare Assistant is powered by a Retrieval-Augmented Generation 
 (RAG) pipeline. The application will assist users (patients and medical professionals) by: 
-• Providing precise, evidence-based answers to medical queries. 
-• Offering a voice-based interface using speech-to-text capabilities. 
-The assistant will utilize LangChain for pipeline orchestration, Hugging Face and OpenAI models for NLP 
-tasks, and recursive retrievers for efficient information retrieval. 
+• Providing precise, evidence-based answers to medical queries,
+• Offering a voice-based interface using speech-to-text capabilities,
+• The assistant will utilize LangChain for pipeline orchestration, 
+• Hugging Face and OpenAI models for NLP,tasks, and recursive retrievers for efficient information retrieval. 
 
 ## Links to data
 https://www.kaggle.com/datasets/pythonafroz/medquad-medical-question-answer-for-ai-research/data
@@ -37,4 +37,3 @@ https://www.kaggle.com/datasets/pythonafroz/medquad-medical-question-answer-for-
 
 ## Analysis: 
 
-The models that were used, like Random Forest, K Nearest Neighbors, Logistic Regression, and Gradient Boost, all got a high accuracy of 0.95. The Decision Tree was still good but a little lower, at 0.91.The utilization of grid search is optimal only in the case of the decision tree, where its implementation resulted in a 4% increase in performance.Our analysis concluded that the random forest was the most optimal model.
