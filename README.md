@@ -44,16 +44,27 @@ https://www.kaggle.com/datasets/pythonafroz/medquad-medical-question-answer-for-
 2. Evidence-based Responses: Retrieve relevant information from the MedQuAD dataset and
 other medical sources.
 3. Voice Interaction: Integrate speech-to-text using Whisper for seamless voice input.
-   
-### 1. **Data Preprocessing**
-   - Fetch and preprocess the MedQuAD dataset. 
-   - Use semantic chunking to divide data into retrievable segments.
-   - RAG Pipeline Development 
-### 2. **Speech to Text Integration**
-   
-### 3. **Measure Performance**
-   - RAGAS
 
+## Retrieval Tools:
+• Recursive Retriever: For iterative retrieval of context-relevant chunks.
+• Semantic Chunker: For chunking medical data based on semantic coherence.
 
+## Database and Indexing:
+• Chroma or FAISS: For vector storage and retrieval of embeddings.
+
+## Workflow:
+Step 1: Data Preparation
+• Fetch and preprocess the MedQuAD dataset.
+• Use semantic chunking to divide data into retrievable segments.
+Step 2: RAG Pipeline Development
+• Retriever: Implement recursive retrieval to fetch context-relevant chunks.
+• Generator: Use OpenAI GPT or Groq LLM for generating responses based on retrieved data.
+Step 3: Speech-to-Text Integration
+• Incorporate Whisper for transcribing user queries from speech to text.
+Step 4: Evaluation
+• Measure performance using:
+o RAGAS
+   
 ## Analysis: 
+
 
