@@ -65,6 +65,6 @@ Step 4: Evaluation
 • Measure performance using:
 o RAGAS
    
-## Analysis: 
+## Results: 
 
 
